@@ -18,7 +18,7 @@ class ConnectDB{
    
     
     /**
-     * 
+     * Author: Stephen Kearns
      */
      
     

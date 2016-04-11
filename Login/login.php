@@ -1,4 +1,12 @@
+
 <?php
+
+/**
+ 
+ 
+ *  Auhtor: Stephen Kearns 
+ 
+ */
 
 
 include("ConnectDB.php");
@@ -29,37 +37,39 @@ if(!empty($_POST['password'])){
        
        
      //Protection From SQL-Injection   
-       $stmt = mysqli_prepare($connect,"SELECT username, password FROM user WHERE username = ? AND password = ?");
-       if ( false===$stmt ) {
-			die('failed error 1 ' . htmlspecialchars($sqlvalue->error));
-		}
+       $stmt = mysqli_prepare($connect,"SELECT name,username,email,password FROM user WHERE username = ? AND password = ?");
+       // $stmt = mysqli_prepare($connect,"SELECT  FROM user WHERE username = ? AND password = ?");
+        if ( !$stmt ) {
+         die('mysqli error: '.mysqli_error($connect));
+        }
+        if($stmt == false){
+             die('mysqli error: '.mysqli_error($connect));
+             echo "stmt returning false";
+        }
+      
 				//bind the user name and password to the prepared statement
 			
        //check what the statement is
      //  echo $stmt;
        
-       mysqli_stmt_bind_param($stmt,"ss", $userName,$password);
-       if ( false===$stmt ) {
-			die('failed error 1 ' . htmlspecialchars($sqlvalue->error));
-		}
+       mysqli_stmt_bind_param($stmt,"ss",$userName,$password);
+  
        
        
        mysqli_stmt_execute($stmt);
-       if ( false===$stmt ) {
-			die('failed error 1 ' . htmlspecialchars($sqlvalue->error));
-		}
+     
        mysqli_stmt_store_result($stmt);
        
-       mysqli_stmt_bind_result($stmt, $bUserName,$bPassword);
-       echo $bUserName, $bPassword;
+       mysqli_stmt_bind_result($stmt,$bname,$bUserName,$bemail,$bPassword);
+       //echo $bUserName, $bPassword;
        
        $user = array();
        
        
        while(mysqli_stmt_fetch($stmt)){
-           //$user[name] = $name;
+           $user['name'] = $bname;
            $user['userName'] = $bUserName;
-          // $user[email] = $email;
+           $user['email'] = $bemail;
            $user['password'] = $bPassword;
            
        }

@@ -1,9 +1,4 @@
-/**
- 
- 
- *  Auhtor: Stephen Kearns 
- 
- */
+
 <?php
 
 

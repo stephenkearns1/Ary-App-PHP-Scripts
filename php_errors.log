@@ -566,3 +566,706 @@
 [24-Mar-2016 15:37:43 UTC] PHP Notice:  Use of undefined constant password - assumed 'password' in /home/ubuntu/workspace/Login/login.php on line 63
 [24-Mar-2016 15:37:43 UTC] PHP Stack trace:
 [24-Mar-2016 15:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[29-Mar-2016 22:20:59 UTC] PHP Notice:  Undefined variable: name in /home/ubuntu/workspace/Login/login.php on line 66
+[29-Mar-2016 22:20:59 UTC] PHP Stack trace:
+[29-Mar-2016 22:20:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[29-Mar-2016 22:20:59 UTC] PHP Notice:  Undefined variable: email in /home/ubuntu/workspace/Login/login.php on line 68
+[29-Mar-2016 22:20:59 UTC] PHP Stack trace:
+[29-Mar-2016 22:20:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[29-Mar-2016 22:25:15 UTC] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/Login/login.php on line 59
+[29-Mar-2016 22:25:15 UTC] PHP Stack trace:
+[29-Mar-2016 22:25:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[29-Mar-2016 22:25:15 UTC] PHP   2. mysqli_stmt_bind_result(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/Login/login.php:59
+[30-Mar-2016 10:20:05 UTC] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/Login/login.php on line 60
+[30-Mar-2016 10:20:05 UTC] PHP Stack trace:
+[30-Mar-2016 10:20:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[30-Mar-2016 10:20:05 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/Login/login.php:60
+[30-Mar-2016 10:23:35 UTC] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/Login/login.php on line 60
+[30-Mar-2016 10:23:35 UTC] PHP Stack trace:
+[30-Mar-2016 10:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[30-Mar-2016 10:23:35 UTC] PHP   2. mysqli_stmt_bind_result(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/Login/login.php:60
+[30-Mar-2016 10:41:57 UTC] PHP Warning:  Unknown: Number of bind variables doesn't match number of fields in prepared statement in Unknown on line 0
+[30-Mar-2016 10:41:57 UTC] PHP Stack trace:
+[30-Mar-2016 10:41:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[30-Mar-2016 10:41:57 UTC] PHP   2. mysqli_stmt_bind_result(*uninitialized*, *uninitialized*, *uninitialized*) /home/ubuntu/workspace/Login/login.php:60
+[31-Mar-2016 13:56:38 UTC] PHP Fatal error:  Call to private method ConnectDB::Connect() from context '' in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 20
+[31-Mar-2016 13:56:38 UTC] PHP Stack trace:
+[31-Mar-2016 13:56:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 23
+[31-Mar-2016 13:57:26 UTC] PHP Stack trace:
+[31-Mar-2016 13:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/App-scripts/PullShopData.php:23
+[31-Mar-2016 13:57:26 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 29
+[31-Mar-2016 13:57:26 UTC] PHP Stack trace:
+[31-Mar-2016 13:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/App-scripts/PullShopData.php:29
+[31-Mar-2016 13:57:26 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 13:57:26 UTC] PHP Stack trace:
+[31-Mar-2016 13:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 13:57:26 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 37
+[31-Mar-2016 13:57:26 UTC] PHP Stack trace:
+[31-Mar-2016 13:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:37
+[31-Mar-2016 13:57:26 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 13:57:26 UTC] PHP Stack trace:
+[31-Mar-2016 13:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 13:57:26 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 54
+[31-Mar-2016 13:57:26 UTC] PHP Stack trace:
+[31-Mar-2016 13:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 13:57:26 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:54
+[31-Mar-2016 14:40:13 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 23
+[31-Mar-2016 14:40:13 UTC] PHP Stack trace:
+[31-Mar-2016 14:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:40:13 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/App-scripts/PullShopData.php:23
+[31-Mar-2016 14:40:13 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 29
+[31-Mar-2016 14:40:13 UTC] PHP Stack trace:
+[31-Mar-2016 14:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:40:13 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/App-scripts/PullShopData.php:29
+[31-Mar-2016 14:40:13 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 14:40:13 UTC] PHP Stack trace:
+[31-Mar-2016 14:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:40:13 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 14:40:13 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 37
+[31-Mar-2016 14:40:13 UTC] PHP Stack trace:
+[31-Mar-2016 14:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:40:13 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:37
+[31-Mar-2016 14:40:13 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 14:40:13 UTC] PHP Stack trace:
+[31-Mar-2016 14:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:40:13 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 14:40:13 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 54
+[31-Mar-2016 14:40:13 UTC] PHP Stack trace:
+[31-Mar-2016 14:40:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:40:13 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:54
+[31-Mar-2016 14:43:12 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 23
+[31-Mar-2016 14:43:12 UTC] PHP Stack trace:
+[31-Mar-2016 14:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:43:12 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/App-scripts/PullShopData.php:23
+[31-Mar-2016 14:43:12 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 29
+[31-Mar-2016 14:43:12 UTC] PHP Stack trace:
+[31-Mar-2016 14:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:43:12 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/App-scripts/PullShopData.php:29
+[31-Mar-2016 14:43:12 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 14:43:12 UTC] PHP Stack trace:
+[31-Mar-2016 14:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:43:12 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 14:43:12 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 37
+[31-Mar-2016 14:43:12 UTC] PHP Stack trace:
+[31-Mar-2016 14:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:43:12 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:37
+[31-Mar-2016 14:43:12 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 14:43:12 UTC] PHP Stack trace:
+[31-Mar-2016 14:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:43:12 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 14:43:12 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 54
+[31-Mar-2016 14:43:12 UTC] PHP Stack trace:
+[31-Mar-2016 14:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:43:12 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:54
+[31-Mar-2016 14:44:32 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 54
+[31-Mar-2016 14:44:32 UTC] PHP Stack trace:
+[31-Mar-2016 14:44:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:44:32 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:54
+[31-Mar-2016 14:46:24 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 54
+[31-Mar-2016 14:46:24 UTC] PHP Stack trace:
+[31-Mar-2016 14:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 14:46:24 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:54
+[31-Mar-2016 14:47:08 UTC] PHP Fatal error:  Call to undefined function mysql_stmt_close() in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 54
+[31-Mar-2016 14:47:08 UTC] PHP Stack trace:
+[31-Mar-2016 14:47:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: day in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: title in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: details in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: time in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: location in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: longitude in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: latitude in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: day in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: title in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: details in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: time in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: location in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: longitude in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 15:31:37 UTC] PHP Notice:  Undefined variable: latitude in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 56
+[31-Mar-2016 15:31:37 UTC] PHP Stack trace:
+[31-Mar-2016 15:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 16:07:07 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:08:05 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:08:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:08:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:08:09 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:08:10 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:08:11 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 16:13:54 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 19:27:09 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 19:27:10 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 48
+[31-Mar-2016 20:54:46 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_fetch_assoc() in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 20:54:46 UTC] PHP Stack trace:
+[31-Mar-2016 20:54:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 20:55:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 20:55:21 UTC] PHP Stack trace:
+[31-Mar-2016 20:55:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 20:55:21 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 20:56:18 UTC] PHP Fatal error:  Call to undefined function mysqli_stm_fetch() in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 20:56:18 UTC] PHP Stack trace:
+[31-Mar-2016 20:56:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:05:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:05:55 UTC] PHP Stack trace:
+[31-Mar-2016 21:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:05:55 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:07:20 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:07:20 UTC] PHP Stack trace:
+[31-Mar-2016 21:07:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:07:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:07:20 UTC] PHP Stack trace:
+[31-Mar-2016 21:07:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:07:20 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:07:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:07:48 UTC] PHP Stack trace:
+[31-Mar-2016 21:07:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:07:48 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:08:24 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:24 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:24 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:24 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:24 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:08:24 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:24 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:24 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:24 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:08:57 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:57 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:57 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:57 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:57 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:08:57 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:57 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:57 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:57 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:08:59 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:08:59 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:08:59 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:08:59 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:08:59 UTC] PHP Stack trace:
+[31-Mar-2016 21:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:08:59 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:00 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:00 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:00 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:00 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:00 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:01 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:01 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:01 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:01 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:01 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:01 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:02 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:02 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:02 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:02 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:02 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:02 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:03 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:03 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:03 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:03 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:03 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:03 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:03 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:03 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:03 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:04 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:04 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:04 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 35
+[31-Mar-2016 21:09:04 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:04 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/App-scripts/PullShopData.php:35
+[31-Mar-2016 21:09:04 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:04 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:04 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:04 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:09:15 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:15 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 42
+[31-Mar-2016 21:09:15 UTC] PHP Stack trace:
+[31-Mar-2016 21:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:09:15 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/App-scripts/PullShopData.php:42
+[31-Mar-2016 21:48:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 46
+[31-Mar-2016 21:48:48 UTC] PHP Stack trace:
+[31-Mar-2016 21:48:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:48:48 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/App-scripts/PullShopData.php:46
+[31-Mar-2016 21:58:18 UTC] PHP Notice:  Undefined variable: stmt in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:58:18 UTC] PHP Stack trace:
+[31-Mar-2016 21:58:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:58:18 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:58:18 UTC] PHP Stack trace:
+[31-Mar-2016 21:58:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:58:18 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:78
+[31-Mar-2016 21:59:05 UTC] PHP Notice:  Undefined variable: stmt in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:05 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:05 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:05 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:05 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:78
+[31-Mar-2016 21:59:06 UTC] PHP Notice:  Undefined variable: stmt in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:06 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:06 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:06 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:06 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:78
+[31-Mar-2016 21:59:07 UTC] PHP Notice:  Undefined variable: stmt in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:07 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:07 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:07 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:07 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:78
+[31-Mar-2016 21:59:49 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, object given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:49 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:49 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:78
+[31-Mar-2016 21:59:51 UTC] PHP Warning:  mysqli_stmt_close() expects parameter 1 to be mysqli_stmt, object given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 78
+[31-Mar-2016 21:59:51 UTC] PHP Stack trace:
+[31-Mar-2016 21:59:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 21:59:51 UTC] PHP   2. mysqli_stmt_close() /home/ubuntu/workspace/App-scripts/PullShopData.php:78
+[31-Mar-2016 22:28:22 UTC] PHP Notice:  Undefined variable: startingNode in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 47
+[31-Mar-2016 22:28:22 UTC] PHP Stack trace:
+[31-Mar-2016 22:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 22:28:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 65
+[31-Mar-2016 22:28:22 UTC] PHP Stack trace:
+[31-Mar-2016 22:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 22:28:22 UTC] PHP   2. array_push() /home/ubuntu/workspace/App-scripts/PullShopData.php:65
+[31-Mar-2016 22:28:22 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 65
+[31-Mar-2016 22:28:22 UTC] PHP Stack trace:
+[31-Mar-2016 22:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 22:28:22 UTC] PHP   2. array_push() /home/ubuntu/workspace/App-scripts/PullShopData.php:65
+[31-Mar-2016 22:30:46 UTC] PHP Notice:  Undefined variable: row_array in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 53
+[31-Mar-2016 22:30:46 UTC] PHP Stack trace:
+[31-Mar-2016 22:30:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[31-Mar-2016 22:39:02 UTC] PHP Notice:  Undefined variable: row_array in /home/ubuntu/workspace/App-scripts/PullShopData.php on line 53
+[31-Mar-2016 22:39:02 UTC] PHP Stack trace:
+[31-Mar-2016 22:39:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/App-scripts/PullShopData.php:0
+[01-Apr-2016 09:10:57 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 09:10:57 UTC] PHP Stack trace:
+[01-Apr-2016 09:10:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:10:57 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 09:10:57 UTC] PHP Stack trace:
+[01-Apr-2016 09:10:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:11:55 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 09:11:55 UTC] PHP Stack trace:
+[01-Apr-2016 09:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:11:55 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 09:11:55 UTC] PHP Stack trace:
+[01-Apr-2016 09:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:12:52 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 09:12:52 UTC] PHP Stack trace:
+[01-Apr-2016 09:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:12:52 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 09:12:52 UTC] PHP Stack trace:
+[01-Apr-2016 09:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:14:30 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:14:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:14:30 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:14:30 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:14:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:14:30 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:14:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:19:30 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 35
+[01-Apr-2016 09:19:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:19:30 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 35
+[01-Apr-2016 09:19:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:21:19 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 39
+[01-Apr-2016 09:21:19 UTC] PHP Stack trace:
+[01-Apr-2016 09:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:21:19 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:39
+[01-Apr-2016 09:21:19 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 43
+[01-Apr-2016 09:21:19 UTC] PHP Stack trace:
+[01-Apr-2016 09:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:21:19 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:43
+[01-Apr-2016 09:21:19 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 45
+[01-Apr-2016 09:21:19 UTC] PHP Stack trace:
+[01-Apr-2016 09:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:21:19 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/Login/login.php:45
+[01-Apr-2016 09:21:19 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 47
+[01-Apr-2016 09:21:19 UTC] PHP Stack trace:
+[01-Apr-2016 09:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:21:19 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/Login/login.php:47
+[01-Apr-2016 09:21:19 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 53
+[01-Apr-2016 09:21:19 UTC] PHP Stack trace:
+[01-Apr-2016 09:21:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:21:19 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/Login/login.php:53
+[01-Apr-2016 09:22:57 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:22:57 UTC] PHP Stack trace:
+[01-Apr-2016 09:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:22:57 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:22:57 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:22:57 UTC] PHP Stack trace:
+[01-Apr-2016 09:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:22:57 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:22:57 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:22:57 UTC] PHP Stack trace:
+[01-Apr-2016 09:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:22:57 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:22:57 UTC] PHP Stack trace:
+[01-Apr-2016 09:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:23:25 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/Register.php on line 45
+[01-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[01-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/Register.php:0
+[01-Apr-2016 09:23:25 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/Register.php on line 45
+[01-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[01-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/Register.php:0
+[01-Apr-2016 09:26:49 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:26:49 UTC] PHP Stack trace:
+[01-Apr-2016 09:26:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:26:49 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:26:49 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:26:49 UTC] PHP Stack trace:
+[01-Apr-2016 09:26:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:26:49 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:26:49 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:26:49 UTC] PHP Stack trace:
+[01-Apr-2016 09:26:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:26:49 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:26:49 UTC] PHP Stack trace:
+[01-Apr-2016 09:26:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:48 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:51:48 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:48 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:51:48 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:51:48 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:48 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:51:48 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:51:48 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:48 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:51:48 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:55 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:51:55 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:55 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:51:55 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:51:55 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:55 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:51:55 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:51:55 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:51:55 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:51:55 UTC] PHP Stack trace:
+[01-Apr-2016 09:51:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:52:05 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:52:05 UTC] PHP Stack trace:
+[01-Apr-2016 09:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:52:05 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:52:05 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:52:05 UTC] PHP Stack trace:
+[01-Apr-2016 09:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:52:05 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:52:05 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:52:05 UTC] PHP Stack trace:
+[01-Apr-2016 09:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:52:05 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:52:05 UTC] PHP Stack trace:
+[01-Apr-2016 09:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:05 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/Register.php on line 45
+[01-Apr-2016 09:53:05 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/Register.php:0
+[01-Apr-2016 09:53:05 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/Register.php on line 45
+[01-Apr-2016 09:53:05 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/Register.php:0
+[01-Apr-2016 09:53:12 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:53:12 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:12 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:53:12 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:53:12 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:12 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:53:12 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:12 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:12 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:12 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:17 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:53:17 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:17 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:53:17 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:53:17 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:17 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:53:17 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:17 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:17 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:17 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:30 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:53:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:30 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:53:30 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:53:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:30 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:53:30 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:30 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:30 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:53:39 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:39 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:53:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:53:39 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:39 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:53:39 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:39 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:39 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:39 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:42 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 48
+[01-Apr-2016 09:53:42 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:42 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:48
+[01-Apr-2016 09:53:42 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 09:53:42 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:42 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 09:53:42 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:42 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 09:53:42 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 09:53:42 UTC] PHP Stack trace:
+[01-Apr-2016 09:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:11:02 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 10:11:02 UTC] PHP Stack trace:
+[01-Apr-2016 10:11:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:11:02 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 10:11:02 UTC] PHP Stack trace:
+[01-Apr-2016 10:11:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:13:35 UTC] PHP Notice:  Undefined variable: sqlvalue in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 10:13:35 UTC] PHP Stack trace:
+[01-Apr-2016 10:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:13:35 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/Login/login.php on line 41
+[01-Apr-2016 10:13:35 UTC] PHP Stack trace:
+[01-Apr-2016 10:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:03 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 46
+[01-Apr-2016 10:14:03 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:03 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:46
+[01-Apr-2016 10:14:03 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 10:14:03 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:03 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 10:14:03 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 10:14:03 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:03 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/Login/login.php:52
+[01-Apr-2016 10:14:03 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 54
+[01-Apr-2016 10:14:03 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:03 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/Login/login.php:54
+[01-Apr-2016 10:14:03 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 60
+[01-Apr-2016 10:14:03 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:03 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/Login/login.php:60
+[01-Apr-2016 10:14:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 46
+[01-Apr-2016 10:14:08 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/Login/login.php:46
+[01-Apr-2016 10:14:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 50
+[01-Apr-2016 10:14:08 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/Login/login.php:50
+[01-Apr-2016 10:14:08 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 52
+[01-Apr-2016 10:14:08 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:08 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/Login/login.php:52
+[01-Apr-2016 10:14:08 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 54
+[01-Apr-2016 10:14:08 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:08 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/Login/login.php:54
+[01-Apr-2016 10:14:08 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/Login/login.php on line 60
+[01-Apr-2016 10:14:08 UTC] PHP Stack trace:
+[01-Apr-2016 10:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[01-Apr-2016 10:14:08 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/Login/login.php:60
+[01-Apr-2016 10:23:32 UTC] PHP Notice:  Undefined variable: stmt1 in /home/ubuntu/workspace/Login/login.php on line 40
+[01-Apr-2016 10:23:32 UTC] PHP Stack trace:
+[01-Apr-2016 10:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:31:01 UTC] PHP Notice:  Undefined variable: bname in /home/ubuntu/workspace/Login/login.php on line 68
+[05-Apr-2016 09:31:01 UTC] PHP Stack trace:
+[05-Apr-2016 09:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:31:01 UTC] PHP Notice:  Undefined variable: bemail in /home/ubuntu/workspace/Login/login.php on line 70
+[05-Apr-2016 09:31:01 UTC] PHP Stack trace:
+[05-Apr-2016 09:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:31:22 UTC] PHP Notice:  Undefined variable: bname in /home/ubuntu/workspace/Login/login.php on line 68
+[05-Apr-2016 09:31:22 UTC] PHP Stack trace:
+[05-Apr-2016 09:31:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:31:22 UTC] PHP Notice:  Undefined variable: bemail in /home/ubuntu/workspace/Login/login.php on line 70
+[05-Apr-2016 09:31:22 UTC] PHP Stack trace:
+[05-Apr-2016 09:31:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:33:01 UTC] PHP Warning:  mysqli_stmt_bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/Login/login.php on line 61
+[05-Apr-2016 09:33:01 UTC] PHP Stack trace:
+[05-Apr-2016 09:33:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:33:01 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/Login/login.php:61
+[05-Apr-2016 09:33:01 UTC] PHP Notice:  Undefined variable: bemail in /home/ubuntu/workspace/Login/login.php on line 70
+[05-Apr-2016 09:33:01 UTC] PHP Stack trace:
+[05-Apr-2016 09:33:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:41:55 UTC] PHP Notice:  Undefined variable: bemail in /home/ubuntu/workspace/Login/login.php on line 70
+[05-Apr-2016 09:41:55 UTC] PHP Stack trace:
+[05-Apr-2016 09:41:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0
+[05-Apr-2016 09:44:04 UTC] PHP Notice:  Undefined variable: bemail in /home/ubuntu/workspace/Login/login.php on line 70
+[05-Apr-2016 09:44:04 UTC] PHP Stack trace:
+[05-Apr-2016 09:44:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Login/login.php:0

@@ -52,14 +52,22 @@ if($result = mysqli_query($connect,$sql)){
 
 
 while($row = mysqli_fetch_assoc($result)){
- 
+  
+    /*$shop['id'] = $shopid;
+    $shop['shopname'] = $shopname;
+    $shop['shopDesc'] = $shopdesc;
+    $shop['geo'] = $shopgeo; */
+    //$shop[$i] = ("shopid" => $shopid, "shopname" =>$shopname, "shopdesc" => $shopdesc, "shopgeo" =>$shopgeo);
+    
     $row_array['id'] = $row['id'];
     $row_array['shopname'] = $row['shopname'];
     $row_array['shopDesc'] = $row['shopDesc'];
     $row_array['geo'] = $row['geo'];
     
     array_push($shop,$row_array);
-
+    
+   // $i++;
+    
     
    }
 
